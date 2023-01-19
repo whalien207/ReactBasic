@@ -1,0 +1,20 @@
+.app_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DA6A00;
+    height: 100vh;
+}
+
+.app_wrap .app_item {
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+/* :global 전역선택자 - 바로 적용가능 */
+:global .input_control{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color : #EE9B01;
+}
